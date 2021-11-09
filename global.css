@@ -1,0 +1,64 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+
+@tailwind base;
+
+@tailwind components;
+
+@font-face {
+  font-family: 'JunkDog';
+  src: local('JunkDog'), url(/font/JunkDog.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Euclid Circular A Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Euclid Circular A Regular'), url("/font/Euclid Circular A Regular.woff") format('woff');
+  }
+
+@font-face {
+  font-family: 'Euclid Circular A SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Euclid Circular A SemiBold'), url("/font/Euclid Circular A SemiBold.woff") format('woff');
+  }
+
+  @font-face {
+    font-family: 'Euclid Circular A Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Euclid Circular A Medium'), url("/font/Euclid Circular A Medium.woff") format('woff');
+    }
+
+@font-face {
+  font-family: 'Qanelas Soft SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Qanelas Soft SemiBold'), url('/font/Radomir Tinkov  QanelasSoftSemiBold.woff') format('woff');
+  }
+@font-face {
+  font-family: 'DIN Alternate Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local('DIN Alternate Bold'), url('/font/DIN Alternate Bold.woff') format('woff');
+  }
+    
+
+@tailwind utilities;
+
+@layer base {
+
+ 
+      
+
+};
+
+
