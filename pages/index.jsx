@@ -1,17 +1,20 @@
-import { useState } from "react"
 
-
+import Head from "next/head";
 
 export default function Index() {
 
 
   return (
-
+    <>
+    <Head>
+    <title>Ensinu | #SAFU</title>
+    <meta name="description" content="" />
+  </Head>
     <div className= "bg-white  bg-no-repeat h-screen w-full bg-contain bg-center " style={{backgroundImage:"url(/images/doggy.png)"}}> 
       <div className="flex flex-col justify-center items-center h-full  font-bold text-indigo-900 "> 
-      <div className=" text-3xl lg:text-6xl uppercase"> We are coming soon </div>
+      <div className=" text-3xl lg:text-6xl uppercase mb-4"> We are coming soon </div>
       <div className=" text-3xl lg:text-6xl uppercase"> #SAFU </div>
-      <div className="flex mt-10">
+      <div className="flex mt-6">
       <a
         href="https://uniswap.exchange/swap/0xdb94b2f01b9208d3979be5d6eb4e159a7b4da4ba&use=V2 "
         className="inline-flex items-center px-4 py-2 border border-transparent text-base font-bold rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mr-2"
@@ -37,6 +40,6 @@ export default function Index() {
       </div>
       </div>
     </div>
-
+    </>
   )
 }
